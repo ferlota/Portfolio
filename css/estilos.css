@@ -143,10 +143,56 @@ img.small{
 }
 
 
+/** PERSONAL DATA **/
+.acerca-de .titulo{
+    color: #005385;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+
+.acerca-de .profession{
+    color: #005385;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+
+/** SKILLS **/
+
+.skills .titulo{
+    color: #005385;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+/** DATOS **/
+
+.acerca-de .item-dato{
+    color: #171515;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.acerca-de .item-dato-value{
+    color: #777777;
+}
+
+
+
+/** CONTACTO **/
 .contacto{
     border-top: 1px solid #cbcbcb;
     border-bottom: 1px solid #cbcbcb;
 }
+
 
 
 .contacto .titulo{
@@ -214,12 +260,12 @@ img.small{
     height: 40px;
 }
 
-.redes-sociales .twitter{
-    background: #1da1f2;
+.redes-sociales .linkedin{
+    background: #0e76a8;
 }
 
-.redes-sociales .instagram{
-    background: #833ab4;
+.redes-sociales .github{
+    background: #171515;
 }
 
 .redes-sociales .whatsapp{
@@ -242,6 +288,11 @@ img.small{
 @media screen and (max-width: 992px){
     .logo{
         height: 76px;
+    }
+
+    img.small{
+        width: 45%;
+        height:45%;
     }
 
     header .menu{
